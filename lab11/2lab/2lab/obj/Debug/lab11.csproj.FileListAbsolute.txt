@@ -1,0 +1,16 @@
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\bin\Debug\x86\sqlite3.dll
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\bin\Debug\x64\sqlite3.dll
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\bin\Debug\2lab.exe.config
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\bin\Debug\2lab.exe
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\bin\Debug\2lab.pdb
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\MainWindow.g.cs
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\App.g.cs
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\2lab_Content.g.cs
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\2lab_MarkupCompile.cache
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\2lab_MarkupCompile.lref
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\MainWindow.baml
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\2lab.g.resources
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\_2lab.Properties.Resources.resources
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\lab11.csproj.GenerateResource.cache
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\2lab.exe
+F:\6 семестр\БД\Лабораторные\lab11\2lab\2lab\obj\Debug\2lab.pdb

@@ -1,0 +1,21 @@
+	СОЗДАЕМ РЕПОЗИТОРИЙ ДЛЯ МИГРАЦИИ
+1.заходим в оракл
+2.пишем строку 1ую
+3.создаем подключение новое
+4.Tools => Migration => Reposuitory Management => Create Repository
+	=> Create
+		либо
+ Connecions => megration_repo (правой кнопкой мыши)=> Migration Repository 
+	=> Assosiate MR
+
+	ЕЩЕ КАКАЯ-ТО ШТУКА
+зайти на сайт sourceforge.net/projects/jtds/files
+скачать версию 1.2
+Tools => Preferences = Database => ...JDBC => Add (выбрать файл .jar)
+	=> в connections появились новые вклидки (sql и т.д.)
+создать подключение SqlServer и выбрать нашу БД и пользователя SQL
+правой кнопкой мыши по connection => Migrate to Oracle => все выбираем как в инструкции
+
+слева внизу:
+Migrations => Lab6 => просмотреть что хотим
+процедуры (слева оригинал, справа конвертировано все)

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="windows-1251" standalone="no"?>
+<log>
+<record>
+  <date>2020-05-19T09:11:07</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>SEVERE</level>
+  <class>oracle.dbtools.migration.workbench.core.logging.MigrationLogUtil</class>
+  <message>Create Repository
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ </message>
+  <param>oracle.jdevimpl.db.adapter.CAConnectionCreator.createConnectionImpl(CAConnectionCreator.java:78)</param>
+  <param>oracle.javatools.db.DatabaseFactory.createConnection(DatabaseFactory.java:838)</param>
+  <param>oracle.javatools.db.DatabaseFactory.createDatabase(DatabaseFactory.java:282)</param>
+  <param>oracle.jdeveloper.db.DatabaseConnections.getDatabase(DatabaseConnections.java:836)</param>
+  <param>oracle.dbtools.raptor.utils.Connections$ConnectionInfo.getDatabase(Connections.java:287)</param>
+  <param>oracle.dbtools.raptor.utils.Connections.getConnection(Connections.java:1205)</param>
+  <param>oracle.dbtools.raptor.utils.Connections.getConnection(Connections.java:1179)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doCreateRepository(FullMigrateTask.java:477)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doMaskBasedActions(FullMigrateTask.java:392)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:314)</param>
+  <param>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask.doWork(FullMigrateTask.java:147)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTask.call(RaptorTask.java:193)</param>
+  <param>java.util.concurrent.FutureTask.run(FutureTask.java:266)</param>
+  <param>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask.run(RaptorTaskManager.java:621)</param>
+  <param>java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)</param>
+  <param>java.util.concurrent.FutureTask.run(FutureTask.java:266)</param>
+  <param>java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)</param>
+  <param>java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)</param>
+  <param>java.lang.Thread.run(Thread.java:745)</param>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@530f2cdc</param>
+  <exception>
+    <message>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask$FullMigrateTaskException: Create Repository
+java.sql.SQLException: Listener refused the connection with the following error:
+ORA-12505, TNS:listener does not currently know of SID given in connect descriptor
+ </message>
+    <frame>
+      <class>oracle.jdevimpl.db.adapter.CAConnectionCreator</class>
+      <line>78</line>
+    </frame>
+    <frame>
+      <class>oracle.javatools.db.DatabaseFactory</class>
+      <line>838</line>
+    </frame>
+    <frame>
+      <class>oracle.javatools.db.DatabaseFactory</class>
+      <line>282</line>
+    </frame>
+    <frame>
+      <class>oracle.jdeveloper.db.DatabaseConnections</class>
+      <line>836</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.utils.Connections$ConnectionInfo</class>
+      <line>287</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.utils.Connections</class>
+      <line>1205</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.utils.Connections</class>
+      <line>1179</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>477</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>392</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>314</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+      <line>147</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTask</class>
+      <line>193</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>oracle.dbtools.raptor.backgroundTask.RaptorTaskManager$RaptorFutureTask</class>
+      <line>621</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.Executors$RunnableAdapter</class>
+      <line>511</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.FutureTask</class>
+      <line>266</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor</class>
+      <line>1142</line>
+    </frame>
+    <frame>
+      <class>java.util.concurrent.ThreadPoolExecutor$Worker</class>
+      <line>617</line>
+    </frame>
+    <frame>
+      <class>java.lang.Thread</class>
+      <line>745</line>
+    </frame>
+  </exception>
+
+</record>
+<record>
+  <date>2020-05-19T09:11:07</date>
+  <logger>oracle.dbtools.migration.workbench.core.MigrationLogResourceBundle</logger>
+  <level>WARNING</level>
+  <class>oracle.dbtools.migration.workbench.core.ui.FullMigrateTask</class>
+  <message>Running : Database Migration: FAILED : Database Migration : FAILED</message>
+  <param>oracle.dbtools.migration.workbench.core.logging.LogInfo@6d0fa409</param>
+
+</record>
+</log>
